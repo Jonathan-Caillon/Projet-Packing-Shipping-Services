@@ -1,0 +1,37 @@
+body {
+    background-image: url(./warehouse.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.back {
+    background-color: rgb(63, 43, 28);
+}
+
+.titre {
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 100px;
+    max-width: 450px;
+}
+
+a {
+    color: white;
+}
+
+.robot {
+    padding-top: 30px;
+    width: 100%;
+    max-width: 300px;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+
+    .back {
+        padding-left: 50px;
+        padding-bottom: 300px;
+    }
+    
+}
